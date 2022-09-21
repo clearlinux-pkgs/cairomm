@@ -1,3 +1,16 @@
+1.16.2 (stable):
+
+Build:
+* MSVC build: Support VS2022 builds
+  (Chun-wei Fan) Merge request !20
+* Meson build: When mm-common >= 1.0.4 is used, Perl is not required
+* Meson build: Specify 'check' option in run_command()
+  Will be necessary with future versions of Meson.
+  Require Meson >= 0.55.0
+* Meson build: Avoid unnecessary configuration warnings
+  (Kjell Ahlstedt)
+
+
 1.16.1 (stable):
 
 Cairo:
