@@ -4,7 +4,7 @@
 #
 Name     : cairomm
 Version  : 1.16.2
-Release  : 13
+Release  : 14
 URL      : https://www.cairographics.org/releases/cairomm-1.16.2.tar.xz
 Source0  : https://www.cairographics.org/releases/cairomm-1.16.2.tar.xz
 Summary  : C++ binding for the cairo graphics library
