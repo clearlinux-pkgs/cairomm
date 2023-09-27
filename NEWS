@@ -1,8 +1,51 @@
+1.18.0 (stable):
+
+Meson build:
+* The boost-shared option defaults to true
+  (Kjell Ahlstedt)
+
+
+1.17.1 (unstable):
+
+* Add SaveGuard save/restore object
+  (Jason Rhinelander, Kjell Ahlstedt) Issue #9 (Ian Britten)
+* Add Surface::set/get_device_scale()
+  (Thomas Holder) Merge request !22
+* ScaledFont: Add get_text_extents() and get_glyph_extents()
+  (Vitaly Dyachkov) Issue #30
+* Use callback functions with C linkage
+  (Kjell Ahlstedt) Issue glibmm#1 (Murray Cumming)
+
+Documentation:
+* Surface: Use cairomm names where possible
+  (Kjell Ahlstedt)
+* Context: Fix some typos
+  (Daniel Boles) Merge request !26
+* Update Visual Studio build docs
+  (Chun-wei Fan) Merge request !28
+* Remove AUTHORS and MAINTAINERS; add info to README.md
+  (Kjell Ahlstedt) Issue gtkmm#140
+
+Build:
+* Meson build: Re-organize warnings-related compiler flags for MSVC
+  (Chun-wei Fan) Merge request !24
+* Autotools build: Add --disable-deprecated-api
+  (Kjell Ahlstedt) Issue #29 (bbhtt)
+* Require cairo >= 1.14.0
+  (Kjell Ahlstedt)
+* Meson build: Detect if we build from a git subtree
+  (William Roy) Merge request gtkmm!72
+* Meson build: Don't copy files with configure_file()
+  (Kjell Ahlstedt)
+* Meson build: Fix the evaluation of is_git_build on Windows
+  (Kjell Ahlstedt) Issue gtkmm#131 (William Roy)
+
+
 1.16.2 (stable):
 
 Build:
 * MSVC build: Support VS2022 builds
-  (Chun-wei Fan) Merge request !20
+  (Chun-wei Fan) Merge request !20, !21
 * Meson build: When mm-common >= 1.0.4 is used, Perl is not required
 * Meson build: Specify 'check' option in run_command()
   Will be necessary with future versions of Meson.

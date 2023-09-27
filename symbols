@@ -320,6 +320,7 @@ libcairomm-1.16.so.1:_ZN5Cairo7Surface12write_to_pngERKNSt7__cxx1112basic_string
 libcairomm-1.16.so.1:_ZN5Cairo7Surface13get_mime_dataERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERm
 libcairomm-1.16.so.1:_ZN5Cairo7Surface13set_mime_dataERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPhmRKN4sigc4slotIFvvEJEEE
 libcairomm-1.16.so.1:_ZN5Cairo7Surface15unset_mime_dataERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+libcairomm-1.16.so.1:_ZN5Cairo7Surface16set_device_scaleEdd
 libcairomm-1.16.so.1:_ZN5Cairo7Surface17set_device_offsetEdd
 libcairomm-1.16.so.1:_ZN5Cairo7Surface19write_to_png_streamERKN4sigc4slotIF13_cairo_statusPKhjEJEEE
 libcairomm-1.16.so.1:_ZN5Cairo7Surface23set_fallback_resolutionEdd
@@ -363,6 +364,10 @@ libcairomm-1.16.so.1:_ZN5Cairo9PsSurfaceC2EP14_cairo_surfaceb
 libcairomm-1.16.so.1:_ZN5Cairo9PsSurfaceD0Ev
 libcairomm-1.16.so.1:_ZN5Cairo9PsSurfaceD1Ev
 libcairomm-1.16.so.1:_ZN5Cairo9PsSurfaceD2Ev
+libcairomm-1.16.so.1:_ZN5Cairo9SaveGuardC1ERKSt10shared_ptrINS_7ContextEE
+libcairomm-1.16.so.1:_ZN5Cairo9SaveGuardC2ERKSt10shared_ptrINS_7ContextEE
+libcairomm-1.16.so.1:_ZN5Cairo9SaveGuardD1Ev
+libcairomm-1.16.so.1:_ZN5Cairo9SaveGuardD2Ev
 libcairomm-1.16.so.1:_ZN5CairomlERKNS_6MatrixES2_
 libcairomm-1.16.so.1:_ZNK5Cairo10FtFontFace14get_synthesizeEv
 libcairomm-1.16.so.1:_ZNK5Cairo10ScaledFont11get_extentsER20cairo_font_extents_t
@@ -370,6 +375,8 @@ libcairomm-1.16.so.1:_ZNK5Cairo10ScaledFont13get_font_faceEv
 libcairomm-1.16.so.1:_ZNK5Cairo10ScaledFont15get_font_matrixERNS_6MatrixE
 libcairomm-1.16.so.1:_ZNK5Cairo10ScaledFont16get_font_optionsERNS_11FontOptionsE
 libcairomm-1.16.so.1:_ZNK5Cairo10ScaledFont16get_scale_matrixERNS_6MatrixE
+libcairomm-1.16.so.1:_ZNK5Cairo10ScaledFont16get_text_extentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20cairo_text_extents_t
+libcairomm-1.16.so.1:_ZNK5Cairo10ScaledFont17get_glyph_extentsERKSt6vectorI13cairo_glyph_tSaIS2_EER20cairo_text_extents_t
 libcairomm-1.16.so.1:_ZNK5Cairo10ScaledFont7get_ctmERNS_6MatrixE
 libcairomm-1.16.so.1:_ZNK5Cairo10ScaledFont8get_typeEv
 libcairomm-1.16.so.1:_ZNK5Cairo11FontOptions13get_antialiasEv
@@ -463,6 +470,8 @@ libcairomm-1.16.so.1:_ZNK5Cairo7Pattern8get_typeEv
 libcairomm-1.16.so.1:_ZNK5Cairo7Pattern9referenceEv
 libcairomm-1.16.so.1:_ZNK5Cairo7Surface11get_contentEv
 libcairomm-1.16.so.1:_ZNK5Cairo7Surface11unreferenceEv
+libcairomm-1.16.so.1:_ZNK5Cairo7Surface16get_device_scaleERdS1_
+libcairomm-1.16.so.1:_ZNK5Cairo7Surface16get_device_scaleEv
 libcairomm-1.16.so.1:_ZNK5Cairo7Surface16get_font_optionsERNS_11FontOptionsE
 libcairomm-1.16.so.1:_ZNK5Cairo7Surface17get_device_offsetERdS1_
 libcairomm-1.16.so.1:_ZNK5Cairo7Surface20has_show_text_glyphsEv
